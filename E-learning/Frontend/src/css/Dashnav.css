@@ -1,0 +1,49 @@
+.dashboard {
+  height: 100vh;
+  width: 100vw;
+
+  .navtopbar {
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    width: 100%;
+    top: 0;
+    .logo {
+      color: #fff;
+      padding: 0px 16px;
+      a {
+        text-decoration: none;
+        padding: 0px 16px;
+        font-size: 1rem;
+        color: #fff;
+      }
+    }
+    .links {
+      .photo {
+        color: #fff;
+      }
+    }
+  }
+  .sidebar {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 6.5%;
+    width: 15vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .navlinks {
+      padding: 10px 0px;
+      a {
+        text-decoration: none;
+        color: #ffff;
+      }
+    }
+  }
+}
